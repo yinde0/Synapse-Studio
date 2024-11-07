@@ -7,16 +7,16 @@ This project is an interactive visual experience that combines real-time speech 
 * Real-time Speech Recognition: Captures and displays spoken words as text.
 * Pose Detection: Tracks body pose to make text follow the user’s right wrist.
 * Text Animations:
-  - 1. Fading: Text fades in when it appears and fades out after a few seconds.
-  - 2. Pulsing: Text gently scales up and down, creating a pulsing effect.
-  - 3. Oscillating: Text oscillates horizontally around its target position, giving a floating effect.
+  -  Fading: Text fades in when it appears and fades out after a few seconds.
+  -  Pulsing: Text gently scales up and down, creating a pulsing effect.
+  -  Oscillating: Text oscillates horizontally around its target position, giving a floating effect.
 * Dynamic Colors: Each text snippet appears in a unique, randomly generated color.
 
 **Technologies Used**
 
-* p5.js: A JavaScript library for creative coding.
-* ml5.js: A machine learning library for the web, used here for real-time pose detection.
-* p5.speech.js: A speech library for p5.js, providing speech recognition and synthesis capabilities.
+* `p5.js`: A JavaScript library for creative coding.
+* `ml5.js`: A machine learning library for the web, used here for real-time pose detection.
+* `p5.speech.js`: A speech library for p5.js, providing speech recognition and synthesis capabilities.
 
 **Installation and Setup**
 
