@@ -1,3 +1,17 @@
+/*
+ * This project incorporates speech recognition using p5.speech.js and pose detection using ml5.js.
+ * 
+ * p5.speech.js:
+ * Source: https://editor.p5js.org/ziyu/sketches/rJCJtGTMx
+ * Developed by Ziyu and contributors at IDM NYU.
+ * Learn more at: https://idmnyu.github.io/p5.js-speech/
+ * 
+ * ml5.js:
+ * A friendly machine learning library for the web.
+ * Official website: https://ml5js.org/
+ * ml5.js GitHub repository: https://github.com/ml5js/ml5-library
+ */
+
 let video;
 let bodyPose;
 let poses = [];
@@ -58,7 +72,7 @@ function draw() {
       if (pointA.confidence > 0.1 && pointB.confidence > 0.1) {
         stroke(255, 0, 0);
         strokeWeight(2);
-        line(pointA.x, pointA.y, pointB.x, pointB.y);
+        // line(pointA.x, pointA.y, pointB.x, pointB.y);
       }
     }
   }
