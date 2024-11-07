@@ -1,4 +1,4 @@
-#Dynamic Speech Recognition and Pose-Following Text Animation
+# Dynamic Speech Recognition and Pose-Following Text Animation
 
 This project is an interactive visual experience that combines real-time speech recognition and body pose detection to create animated text. When a user speaks, the recognized words appear as animated text on the screen, following the user’s right wrist. Each text snippet has its own unique animations, including pulsing, fading, and oscillating effects, creating a lively and engaging display.
 
